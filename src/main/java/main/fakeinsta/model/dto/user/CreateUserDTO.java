@@ -1,4 +1,6 @@
-package main.fakeinsta.enitties.dto.user;
+package main.fakeinsta.model.dto.user;
+
+import main.fakeinsta.model.User;
 
 public class CreateUserDTO {
 	private String name;
@@ -11,6 +13,13 @@ public class CreateUserDTO {
 		this.setEmail(email.trim());
 		this.setPassword(password.trim());
 		this.setBiography(biography.trim());
+	}
+
+	public CreateUserDTO(User user) {
+		this.setName(user.getName().trim());
+		this.setEmail(user.getEmail().trim());
+		this.setPassword(user.getPassword().trim());
+		this.setBiography(user.getBiography().trim());
 	}
 	
 	public String getName() {

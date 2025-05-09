@@ -1,4 +1,4 @@
-package main.fakeinsta.enitties;
+package main.fakeinsta.model;
 
 public class Comment {
 	private int id;

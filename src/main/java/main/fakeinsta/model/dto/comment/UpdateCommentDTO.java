@@ -1,4 +1,4 @@
-package main.fakeinsta.enitties.dto.comment;
+package main.fakeinsta.model.dto.comment;
 
 public class UpdateCommentDTO {
 	

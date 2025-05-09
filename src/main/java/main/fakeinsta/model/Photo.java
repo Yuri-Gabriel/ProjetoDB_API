@@ -1,4 +1,4 @@
-package main.fakeinsta.enitties;
+package main.fakeinsta.model;
 
 public class Photo {
 	private int id;

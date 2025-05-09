@@ -1,4 +1,4 @@
-package main.fakeinsta.enitties.dto.photo;
+package main.fakeinsta.model.dto.photo;
 
 public class CreatePhotoDTO {
 	private String name;

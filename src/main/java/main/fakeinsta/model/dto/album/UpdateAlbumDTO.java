@@ -1,4 +1,4 @@
-package main.fakeinsta.enitties.dto.album;
+package main.fakeinsta.model.dto.album;
 
 public class UpdateAlbumDTO extends CreateAlbumDTO {
 

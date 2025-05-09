@@ -1,4 +1,4 @@
-package main.fakeinsta.enitties.dto.user;
+package main.fakeinsta.model.dto.user;
 
 public class UpdateUserDTO extends CreateUserDTO {
 
